@@ -17,5 +17,5 @@ int main(int argc , char* argv[])
 	for(long long i=0;i<100000;i++) // waiting the buffer to be flushed ...
 		for(long long j=0;j<10000;j++) // suppose the loops are executed in x sec !
 			r++;
-	cin>>random_int;  // buffer is flushed now(cin tied to cout), you'll see output_2, x seconds between output_1 and output_2
+	cin>>random_int;  // buffer is flushed now(cin tied to cout), you will see output_2, x seconds between output_1 and output_2
 }
